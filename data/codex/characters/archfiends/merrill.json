@@ -1,0 +1,12 @@
+{
+  "id": "merrill",
+  "type": "character",
+  "name": "Merrill",
+  "aliases": ["Lieutenant Merrill", "Mer"],
+  "tags": ["archfiend", "protagonist", "book-1", "cavalry"],
+  "global": false,
+  "region": "piramia",
+  "relations": [],
+  "created": "2025-12-24T00:09:08Z",
+  "modified": "2025-12-24T00:09:08Z"
+}

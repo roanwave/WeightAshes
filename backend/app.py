@@ -27,12 +27,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# TODO: Register routers
-# from routes import codex, manuscript, ai, session
-# app.include_router(codex.router, prefix="/api/codex", tags=["codex"])
-# app.include_router(manuscript.router, prefix="/api/manuscript", tags=["manuscript"])
-# app.include_router(ai.router, prefix="/api/ai", tags=["ai"])
-# app.include_router(session.router, prefix="/api/session", tags=["session"])
+# Register routers
+from routes import codex_router
+
+app.include_router(codex_router)
+
+# TODO: Register additional routers
+# from routes import manuscript_router, ai_router, session_router
+# app.include_router(manuscript_router)
+# app.include_router(ai_router)
+# app.include_router(session_router)
 
 
 @app.get("/")

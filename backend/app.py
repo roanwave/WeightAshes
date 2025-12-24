@@ -28,14 +28,14 @@ app.add_middleware(
 )
 
 # Register routers
-from routes import codex_router
+from routes import ai_router, codex_router, manuscript_router
 
 app.include_router(codex_router)
+app.include_router(manuscript_router)
+app.include_router(ai_router)
 
-# TODO: Register additional routers
-# from routes import manuscript_router, ai_router, session_router
-# app.include_router(manuscript_router)
-# app.include_router(ai_router)
+# TODO: Register session router when implemented
+# from routes import session_router
 # app.include_router(session_router)
 
 

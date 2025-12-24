@@ -3,10 +3,12 @@
   "title": "Scene 1",
   "summary": "",
   "pov": "merrill",
-  "wordCount": 0,
+  "wordCount": 31,
   "status": "draft",
   "labels": [],
-  "attachedCodex": ["merrill"],
+  "attachedCodex": [
+    "merrill"
+  ],
   "created": "2025-12-24T00:09:08Z",
-  "modified": "2025-12-24T00:09:08Z"
+  "modified": "2025-12-24T06:23:15.869101Z"
 }

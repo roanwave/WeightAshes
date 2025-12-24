@@ -22,6 +22,9 @@ from .file_manager import (
     save_chapter,
 )
 
+from .ai_client import generate as ai_generate
+from .prompt_builder import build_chat_prompt, load_system_prompt
+
 __all__ = [
     # Configuration
     "DATA_DIR",
@@ -42,4 +45,8 @@ __all__ = [
     "save_scene",
     "get_chapter",
     "save_chapter",
+    # AI
+    "ai_generate",
+    "build_chat_prompt",
+    "load_system_prompt",
 ]
